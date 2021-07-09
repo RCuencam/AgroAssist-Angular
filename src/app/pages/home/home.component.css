@@ -1,0 +1,19 @@
+.toolbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons_menu button{
+    margin: 0 10px;
+    background: #3F51B5;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.card_home{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}

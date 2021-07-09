@@ -1,0 +1,46 @@
+{
+  "farmers": [
+    {
+      "id": 1,
+      "username": "jdoe",
+      "email": "john.doe@gmail.com",
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "username": "nross",
+      "email": "norman.ross@gmail.com",
+      "firstName": "Norman",
+      "lastName": "Ross"
+    },
+    {
+      "id": 3,
+      "username": "allie84",
+      "email": "allie84@gmail.com",
+      "firstName": "Allie",
+      "lastName": "Stevens"
+    },
+    {
+      "id": 4,
+      "username": "rod1987",
+      "email": "rod1987@gmail.com",
+      "firstName": "Rod",
+      "lastName": "Cohen"
+    },
+    {
+      "id": 5,
+      "username": "yapo",
+      "email": "yapo@gmail.com",
+      "firstName": "Yield",
+      "lastName": "Nemis"
+    },
+    {
+      "id": 6,
+      "username": "rcuencam",
+      "email": "rcuenca446@gmail.com",
+      "firstName": "Rodrigo",
+      "lastName": "Cuenca"
+    }
+  ]
+}

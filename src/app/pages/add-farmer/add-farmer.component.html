@@ -1,0 +1,28 @@
+<mat-toolbar color="primary" class="toolbar">
+    <div>
+        <span>AgroAssist</span>
+    </div>
+    <span class="example-spacer"></span>
+    <div class="buttons_menu">
+        <button mat-button color="primary" routerLink="/">Home</button>
+        <button mat-button color="primary" routerLink="/farmers/new">Add Farmer</button>
+    </div>
+</mat-toolbar>
+
+<div class="form">
+    <form action="">
+        <label for="">Username</label> <br>
+        <input matInput  type="text" [(ngModel)]="newFarmer.username" name="username">
+        <br>
+        <label for="">Email</label> <br>
+        <input matInput type="text" [(ngModel)]="newFarmer.email" name="email">
+        <br>
+        <label for="">FirstName</label> <br>
+        <input matInput type="text" [(ngModel)]="newFarmer.firstName" name="firstName">
+        <br>
+        <label for="">LastName</label> <br>
+        <input matInput type="text" [(ngModel)]="newFarmer.lastName" name="lastName"><br>
+        <button mat-button color="warn" routerLink="/">Cancel</button>
+        <button mat-button color="primary" (click)="postFarmer()" routerLink="/">Crear</button>
+    </form>
+</div>
